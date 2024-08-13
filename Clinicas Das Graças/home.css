@@ -1,0 +1,659 @@
+
+
+
+
+@font-face {
+    font-family: "Prosto One";
+    src: url("fonts/ProstoOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Flex";
+    src: url("fonts/RobotoFlex-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url("fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url("fonts/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter Regular";
+    src: url("fonts/Inter_28pt-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter Light";
+    src: url("fonts/Inter_28pt-Light.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("fonts\Montserrat-Regular.ttf");
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header.container-nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container-nav img {
+    width: 10%;
+    height: 10%;
+}
+
+.container-nav {
+    background-color: #78ABC3;
+    padding: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-nav img {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    left: 5%;
+}
+
+.nav-item a {
+    font-family: "Poppins Regular";
+    color: rgb(46, 45, 45);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 90%;
+    font-weight: 600;
+    position: relative;
+    left: 13vh;
+}
+
+.nav-item a:hover {
+    color: rgb(128, 127, 127);
+    transition: 800ms;
+    font-size: 99%;
+}
+
+.btn-btn-primary {
+    border-radius: 50vh;
+    width: 20%;
+    position: relative;
+    right: 3%;
+    color: white;
+    background-color: #0EC8DD;
+    border-color: transparent;
+    font-weight: 600;
+}
+
+.container-nav button:hover {
+    background-color: #0ea4b4;
+    border-color: transparent;
+    transition: 900ms;
+}
+
+.parte1 {
+    position: relative;
+}
+
+.img-principal {
+    width: 100%;
+    object-fit: cover;
+    height: 40%;
+    border-bottom-left-radius: 10vh;
+    border-bottom-right-radius: 10vh;
+}
+
+.conteudo-home h1 {
+    font-family: "PlayfairDisplay";
+    font-size: 375%;
+    width: 30%;
+    position: relative;
+    top: -95vh;
+    left: 5%;
+    color: rgb(255, 255, 255);
+}
+
+.conteudo-home h2 {
+    font-family: "Inter Light";
+    font-size: 1.4rem;
+    font-weight: 100;
+    opacity: 80%;
+    position: relative;
+    top: -95vh;
+    left: 5%;
+    width: 55%;
+    color: rgb(255, 255, 255);
+}
+
+.conteudo-home button {
+    border-radius: 50vh;
+    width: 20%;
+    position: relative;
+    left: 4.5%;
+    top: -92vh;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: transparent;
+    font-weight: 600;
+
+}
+
+.conteudo-home button:hover {
+    background-color: #313131;
+    color: white;
+    border-color: transparent;
+    transition: 1000ms;
+}
+
+.vantagens img {
+    position: relative;
+    left: 15%;
+    margin-top: -18%;
+    border-bottom-left-radius: 4em;
+    border-bottom-right-radius: 4em;
+    border-top-right-radius: 4em;
+    border-top-left-radius: 0.5em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
+
+.vantagens img:hover {
+    transform: scale(1.1);
+    transition: 800ms;
+}
+
+.vantagens h1 {
+    font-family: "PlayfairDisplay";
+    width: 50%;
+    position: relative;
+    top: -10em;
+    left: 45%;
+}
+
+.vantegem1 {
+    border: 0.1em solid rgba(53, 53, 53, 0.199);
+    border-radius: 1em;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 5%;
+    margin-right: 4%;
+    padding-bottom: 1%;
+}
+
+.vantegem1:hover {
+    transform: scale(1.1);
+    transition: 800ms;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
+
+.vantegem3:hover {
+    transform: scale(1.1);
+    transition: 800ms;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
+
+
+.vantegem3 {
+    border: 0.1em solid rgba(53, 53, 53, 0.199);
+    border-radius: 1em;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 5%;
+    margin-left: 4%;
+    padding-bottom: 1%;
+}
+
+.vantagens h2 {
+    font-family: "Inter Light";
+    font-weight: 100;
+    opacity: 80%;
+    width: 50%;
+    position: relative;
+    top: -11em;
+    left: 45%;
+}
+
+.counteiner-vantagens {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: stretch;
+    position: relative;
+    top: -9em;
+}
+
+.counteiner-vantagens h1 {
+    font-family: "Poppins Regular";
+    font-weight: 600;
+    font-size: 125%;
+    color: rgb(120, 170, 195);
+}
+
+.counteiner-vantagens h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    width: 100%;
+}
+
+
+.vantagens-img img {
+    width: 4%;
+}
+
+.equipe-img {
+    position: relative;
+    top: -25em;
+    left: 7.5%;
+}
+
+.tecnologia-img {
+    position: relative;
+    top: -24.5em;
+    left: 54%;
+}
+
+section.parte3 p {
+    font-family: "PlayfairDisplay";
+    font-size: 175%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-planos {
+    display: flex;
+    justify-content: space-between;
+    margin: 7%;
+
+}
+
+.texto-individual,
+.texto-familia,
+.texto-premium p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.texto h1 {
+    font-family: "Inter Regular";
+}
+
+.texto-individual,
+.texto-familia,
+.texto-premium {
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding-left: 4em;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-top-left-radius: 1.3em;
+    border-top-right-radius: 1.3em;
+}
+
+section.planos {
+    position: relative;
+    top: -5em;
+}
+
+.titulo h1 {
+    font-family: "PlayfairDisplay";
+}
+
+.individual {
+    position: relative;
+    top: 3em;
+}
+
+.premium {
+    position: relative;
+    top: 3em;
+}
+
+.premium:hover {
+    transform: scale(1.1);
+    transition: 800ms;
+}
+
+.familia:hover {
+    transform: scale(1.1);
+    transition: 800ms;
+}
+
+.individual:hover {
+    transform: scale(1.1);
+    transition: 800ms;
+}
+
+
+.precos-indv {
+    text-align: center;
+    border: 0.1em solid rgba(53, 53, 53, 0.199);
+    padding-bottom: 2em;
+    border-bottom-left-radius: 1.3em;
+    border-bottom-right-radius: 1.3em;
+}
+
+.precos-indv button {
+    background-color: #78aac3;
+    border-color: #78aac3;
+}
+
+.precos-indv button:hover {
+    background-color: #4852c2;
+    border-color: #4852c2;
+    transition: 700ms;
+}
+
+.moeda-indv {
+    position: relative;
+    top: 2.87em;
+    right: 1.88em;
+    font-weight: 500;
+}
+
+.centavos-indv {
+    position: relative;
+    top: -2.38em;
+    left: 1.8em;
+    font-size: 1.3em;
+}
+
+.mensalidade-indv {
+    font-weight: 400;
+    position: relative;
+    top: -2.5em;
+}
+
+.beneficios-indv ul li {
+    position: relative;
+
+}
+
+.precos-fam {
+    text-align: center;
+    border: 0.1em solid rgba(53, 53, 53, 0.199);
+    padding-bottom: 2em;
+    border-bottom-left-radius: 1.3em;
+    border-bottom-right-radius: 1.3em;
+}
+
+.precos-fam button {
+    background-color: #78aac3;
+    border-color: #78aac3;
+}
+
+.precos-fam button:hover {
+    background-color: #4852c2;
+    border-color: #4852c2;
+    transition: 700ms;
+}
+
+.moeda-fam {
+    position: relative;
+    top: 2.87em;
+    right: 2.5em;
+    font-weight: 500;
+}
+
+.centavos-fam {
+    position: relative;
+    top: -2.38em;
+    left: 2.3em;
+    font-size: 1.3em;
+}
+
+.mensalidade-fam {
+    font-weight: 400;
+    position: relative;
+    top: -2.5em;
+}
+
+.beneficios-fam ul li {
+    position: relative;
+
+}
+
+.precos-premium {
+    text-align: center;
+    border: 0.1em solid rgba(53, 53, 53, 0.199);
+    padding-bottom: 2em;
+    border-bottom-left-radius: 1.3em;
+    border-bottom-right-radius: 1.3em;
+}
+
+.precos-premium button {
+    background-color: #78aac3;
+    border-color: #78aac3;
+}
+
+.precos-premium button:hover {
+    background-color: #4852c2;
+    border-color: #4852c2;
+    transition: 700ms;
+}
+
+.moeda-premium {
+    position: relative;
+    top: 2.87em;
+    right: 1.8em;
+    font-weight: 500;
+}
+
+.centavos-premium {
+    position: relative;
+    top: -2.38em;
+    left: 1.8em;
+    font-size: 1.3em;
+}
+
+.mensalidade-premium {
+    font-weight: 400;
+    position: relative;
+    top: -2.5em;
+}
+
+.beneficios-premium ul li {
+    position: relative;
+
+}
+
+footer{
+    background-color: rgba(221, 221, 221, 0.411);
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+}
+
+.container-footer{
+    padding-top: 3rem;
+    margin-left: 4rem;
+}
+
+.nome-footer h1{
+    width: 30%;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.redes-sociais{
+    display: flex;
+    color: #898989;
+}
+
+.redes-sociais svg{
+    width: 1.8rem;
+    height: 1.8rem;
+    width: 3.7rem;
+    position: relative;
+    left: -0.6rem;
+}
+
+.facebook svg:hover{
+    color: rgb(53, 90, 175);
+    transform: scale(1.3);
+    transition: 800ms;
+}
+
+.linkedin svg:hover{
+    color: rgb(53, 90, 175);
+    transform: scale(1.3);
+    transition: 800ms;
+}
+
+.twitter svg:hover{
+    color: rgb(53, 90, 175);
+    transform: scale(1.3);
+    transition: 800ms;
+}
+
+.email svg:hover{
+    color: rgb(53, 90, 175);
+    transform: scale(1.3);
+    transition: 800ms;
+}
+
+.services h1{
+    font-family: "Montserrat Regular";
+    font-size: 1.5rem;
+    position: relative;
+    left: 25rem;
+    top: -9.5rem;
+    font-weight: 600;
+}
+
+.services a{
+    font-family: "Inter Regular";
+    position: relative;
+    left: 25rem;
+    top: -8rem;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8rem;
+}
+
+.services a:hover{
+    color: #3a5bcccc;
+    transition: 500ms;
+}
+
+.about h1{
+    font-family: "Montserrat Regular";
+    font-size: 1.5rem;
+    position: relative;
+    left: 45rem;
+    top: -25.5rem;
+    font-weight: 600;
+}
+
+.about a{
+    font-family: "Inter Regular";
+    position: relative;
+    left: 45rem;
+    top: -24.5rem;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8rem;
+}
+
+.about a:hover{
+    color: #3a5bcccc;
+    transition: 500ms;
+}
+
+.about{
+    height: 0px;
+}
+
+.store{
+    position: relative;
+    top: -3.5rem;
+}
+
+.store h1{
+    font-family: "Inter Light";
+    font-size: 1.3rem;
+    position: relative;
+    left: 8.4em;
+
+}
+
+.store img{
+    width: 14%;
+    position: relative;
+    left: 10.5em;
+}
+
+.store a{
+    color: black;
+    position: relative;
+    left: 38rem;
+    top: -2.5rem;
+}
+
+.copyright{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -0.5em;
+}
+
+.copyright h1{
+    font-size: 0.9em;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+}
+
+#togglePassword {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.modal-footer a.button-cadastre {
+    margin-right: auto;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+a.button-cadastre:hover {
+    text-decoration: none;
+    color: #076bd6;
+    transition: 400ms;
+}
+
+.modal-footer button:hover{
+    background-color:lightblue;
+}
+
+.toast-header{
+    background-color: rgba(0, 128, 0, 0.413);
+}
